@@ -1,6 +1,7 @@
 # 03-sysadmin-01-terminal
 1. Установите средство виртуализации Oracle VirtualBox.  
 Ну тут легко. Ставлю VB на Win 10  
+---
 2. Установите средство автоматизации Hashicorp Vagrant.  
 Тоже не сложно. Ставлю, ребутаю комп  
 3. Виндовый терминал устраивает, проблем с переменными не возникло.  
@@ -75,5 +76,52 @@ Stderr: VBoxManage.exe: error: Call to WHvSetupPartition failed: ERROR_SUCCESS (
 VBoxManage.exe: error: Details: code E_FAIL (0x80004005), component ConsoleWrap, interface IConsole  
 
 C:\HashiCorp\Vagrant\config>  
+
+После нескольких танцев с бубном ВМ запустилась:  
+  
+  C:\HashiCorp\Vagrant\config>vagrant up  
+Bringing machine 'default' up with 'virtualbox' provider...  
+==> default: Checking if box 'bento/ubuntu-20.04' version '202107.28.0' is up to date...  
+==> default: Clearing any previously set forwarded ports...  
+==> default: Clearing any previously set network interfaces...  
+==> default: Preparing network interfaces based on configuration...  
+    default: Adapter 1: nat  
+==> default: Forwarding ports...  
+    default: 22 (guest) => 2222 (host) (adapter 1)  
+==> default: Booting VM...  
+==> default: Waiting for machine to boot. This may take a few minutes...  
+    default: SSH address: 127.0.0.1:2222  
+    default: SSH username: vagrant  
+    default: SSH auth method: private key  
+    default:  
+    default: Vagrant insecure key detected. Vagrant will automatically replace  
+    default: this with a newly generated keypair for better security.  
+    default:  
+    default: Inserting generated public key within guest...  
+    default: Removing insecure key from the guest if it's present...  
+    default: Key inserted! Disconnecting and reconnecting using new SSH key...  
+==> default: Machine booted and ready!  
+==> default: Checking for guest additions in VM...  
+    default: The guest additions on this VM do not match the installed version of  
+    default: VirtualBox! In most cases this is fine, but in rare cases it can  
+    default: prevent things such as shared folders from working properly. If you see  
+    default: shared folder errors, please make sure the guest additions within the  
+    default: virtual machine match the version of VirtualBox you have installed on  
+    default: your host and reload your VM.  
+    default:  
+    default: Guest Additions Version: 6.1.24  
+    default: VirtualBox Version: 6.0  
+==> default: Mounting shared folders...  
+    default: /vagrant => C:/HashiCorp/Vagrant/config  
+	
+5. Ознакомьтесь с графическим интерфейсом VirtualBox, посмотрите как выглядит виртуальная машина,  
+которую создал для вас Vagrant, какие аппаратные ресурсы ей выделены. Какие ресурсы выделены по-умолчанию?  
+  
+ По умолчанию выделено 1Гб ОЗУ, 64Гб на диске и 2 процессора. Обычный интерфейс VBox. Настройки машины лежат в  
+ C:\Users\y.kozlov\VirtualBox VMs\config_default_1636697568053_67486 (в моём случае это путь по умолчанию)  
+
+ 
+ 
+
 
 
