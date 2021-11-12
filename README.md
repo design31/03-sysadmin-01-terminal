@@ -81,7 +81,7 @@ C:\HashiCorp\Vagrant\config>
 
 После нескольких танцев с бубном ВМ запустилась:  
   
-  C:\HashiCorp\Vagrant\config>vagrant up  
+C:\HashiCorp\Vagrant\config>vagrant up  
 Bringing machine 'default' up with 'virtualbox' provider...  
 ==> default: Checking if box 'bento/ubuntu-20.04' version '202107.28.0' is up to date...  
 ==> default: Clearing any previously set forwarded ports...  
@@ -115,6 +115,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: VirtualBox Version: 6.0  
 ==> default: Mounting shared folders...  
     default: /vagrant => C:/HashiCorp/Vagrant/config  
+
 ---
 	
 5. Ознакомьтесь с графическим интерфейсом VirtualBox, посмотрите как выглядит виртуальная машина,  
