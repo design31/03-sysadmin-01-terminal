@@ -4,9 +4,7 @@
 2. Установите средство автоматизации Hashicorp Vagrant.  
 Тоже не сложно. Ставлю, ребутаю комп  
 3. Виндовый терминал устраивает, проблем с переменными не возникло.  
-4. Правим config в notepad
-![Картинка с файлом vagrant.config](img/vagrant.config.jpg)
-Microsoft Windows [Version 10.0.19043.1288]  
+4. Microsoft Windows [Version 10.0.19043.1288]  
 (c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.  
   
 C:\WINDOWS\system32>set PATH=%PATH%;C:\HashiCorp\Vagrant\bin  
@@ -25,6 +23,8 @@ c:\>cd C:\HashiCorp\Vagrant
 C:\HashiCorp\Vagrant>mkdir config  
   
 C:\HashiCorp\Vagrant>cd config  
+Правим config в notepad  
+![Картинка с файлом vagrant.config](img/vagrant.config.jpg)  
 C:\HashiCorp\Vagrant\config>vagrant init  
 A `Vagrantfile` has been placed in this directory. You are now  
 ready to `vagrant up` your first virtual environment! Please read  
