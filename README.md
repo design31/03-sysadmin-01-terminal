@@ -4,7 +4,9 @@
 ---
 2. Установите средство автоматизации Hashicorp Vagrant.  
 Тоже не сложно. Ставлю, ребутаю комп  
+---
 3. Виндовый терминал устраивает, проблем с переменными не возникло.  
+---
 4. Microsoft Windows [Version 10.0.19043.1288]  
 (c) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.  
   
@@ -113,6 +115,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: VirtualBox Version: 6.0  
 ==> default: Mounting shared folders...  
     default: /vagrant => C:/HashiCorp/Vagrant/config  
+---
 	
 5. Ознакомьтесь с графическим интерфейсом VirtualBox, посмотрите как выглядит виртуальная машина,  
 которую создал для вас Vagrant, какие аппаратные ресурсы ей выделены. Какие ресурсы выделены по-умолчанию?  
