@@ -115,7 +115,6 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: VirtualBox Version: 6.0  
 ==> default: Mounting shared folders...  
     default: /vagrant => C:/HashiCorp/Vagrant/config  
-
 ---
 	
 5. Ознакомьтесь с графическим интерфейсом VirtualBox, посмотрите как выглядит виртуальная машина,  
@@ -123,6 +122,17 @@ Bringing machine 'default' up with 'virtualbox' provider...
   
  По умолчанию выделено 1Гб ОЗУ, 64Гб на диске и 2 процессора. Обычный интерфейс VBox. Настройки машины лежат в  
  C:\Users\y.kozlov\VirtualBox VMs\config_default_1636697568053_67486 (в моём случае это путь по умолчанию)  
+---
+6.  Ознакомьтесь с возможностями конфигурации VirtualBox через Vagrantfile: документация. Как добавить оперативной памяти  
+или ресурсов процессора виртуальной машине?  
+
+Удобно изменить пареметры машины по умолчанию можно с помощью добавления параметров файл Vagrantfile  
+config.vm.provider "virtualbox" do |v|  
+  v.memory = 4000  
+  v.cpus = 8  
+  v.gui = true  
+  end  
+ 
 
  
  
