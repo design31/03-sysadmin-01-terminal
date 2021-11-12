@@ -80,7 +80,7 @@ VBoxManage.exe: error: Details: code E_FAIL (0x80004005), component ConsoleWrap,
 C:\HashiCorp\Vagrant\config>  
 
 После нескольких танцев с бубном ВМ запустилась:  
-  
+
 C:\HashiCorp\Vagrant\config>vagrant up  
 Bringing machine 'default' up with 'virtualbox' provider...  
 ==> default: Checking if box 'bento/ubuntu-20.04' version '202107.28.0' is up to date...  
@@ -119,7 +119,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
 	
 5. Ознакомьтесь с графическим интерфейсом VirtualBox, посмотрите как выглядит виртуальная машина,  
 которую создал для вас Vagrant, какие аппаратные ресурсы ей выделены. Какие ресурсы выделены по-умолчанию?  
-  
+
  По умолчанию выделено 1Гб ОЗУ, 64Гб на диске и 2 процессора. Обычный интерфейс VBox. Настройки машины лежат в  
  C:\Users\y.kozlov\VirtualBox VMs\config_default_1636697568053_67486 (в моём случае это путь по умолчанию)  
 ---
