@@ -20,11 +20,8 @@ C:\WINDOWS\system32>с сЖ.
 командой, исполняемой программой или пакетным файлом.  
   
 C:\WINDOWS\system32>cd c:\  
-  
 c:\>cd C:\HashiCorp\Vagrant  
-  
 C:\HashiCorp\Vagrant>mkdir config  
-  
 C:\HashiCorp\Vagrant>cd config  
 Правим config в notepad  
 ![Картинка с файлом vagrant.config](img/vagrant.config.jpg)  
