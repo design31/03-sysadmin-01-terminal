@@ -112,6 +112,7 @@ Bringing machine 'default' up with 'virtualbox' provider...
     default: VirtualBox Version: 6.0  
 ==> default: Mounting shared folders...  
     default: /vagrant => C:/HashiCorp/Vagrant/config  
+    
 ---
 	
 5. Ознакомьтесь с графическим интерфейсом VirtualBox, посмотрите как выглядит виртуальная машина,  
