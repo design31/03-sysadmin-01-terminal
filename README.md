@@ -172,4 +172,23 @@ vagrant@vagrant:~$
 * что делает директива ignoreboth в bash?  
 Позволяет history не записывать дублиющиеся команды, т.е. в истории не будут отображаться строки которые начинаются с пробела и строки совпадающие с последней выполненной командой. 
 
+---
+
+9. В каких сценариях использования применимы скобки {} и на какой строчке man bash это описано?  
+Описано в строке 197 
+{ list; }
+              list is simply executed in the current shell environment. list must be terminated with a newline or semicolon.  
+	      This is known as a group command. The return status is the exit status of list. Note that unlike the  
+              metacharacters  (  and ), { and } are reserved words and must occur where a reserved word is permitted to be recognized.  
+	      Since they do not cause a word break, they must be separated from list by whitespace or another  
+              shell metacharacter.  
+Фигурные скобки используются для обозначения диапазона значений или списка комманд.  
+
+---
+
+10. С учётом ответа на предыдущий вопрос, как создать однократным вызовом touch 100000 файлов? Получится ли аналогичным образом создать 300000? Если нет, то почему?  
+
+	      
+
+
 
