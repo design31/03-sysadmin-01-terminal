@@ -190,7 +190,7 @@ vagrant@vagrant:~$
 100 000 файлов создалось без проблем командой touch file{1..100000}  
 
 При попытке создать 300 000 файлов ошибка:  
-vagrant@vagrant:~/TEST$ touch file{1..300000}  
+vagrant@vagrant:\~/TEST$ touch file{1..300000}  
 -bash: /usr/bin/touch: Argument list too long  
 Ошибка говорит о том, что в команде превышен лимит длины аргументов. Данный лимит можно посмотреть командой:  
 vagrant@vagrant:~/TEST$ getconf ARG_MAX  
