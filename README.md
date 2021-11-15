@@ -157,9 +157,11 @@ More information can be found at https://github.com/chef/bento
 Last login: Fri Nov 12 09:17:15 2021  
 vagrant@vagrant:~$  
 
+---
+
 8. Ознакомиться с разделами man bash, почитать о настройках самого bash:  
 
-*какой переменной можно задать длину журнала history, и на какой строчке manual это описывается?  
+* какой переменной можно задать длину журнала history, и на какой строчке manual это описывается?  
  HISTSIZE  
               The  number of commands to remember in the command history (see HISTORY below).  
 	      If the value is 0, commands are not saved in the history list.  
@@ -167,7 +169,7 @@ vagrant@vagrant:~$
               history list (there is no limit).  The shell sets the default value to 500 after reading any startup files.  
 Строки 596-597 в моём случае
 
-*что делает директива ignoreboth в bash?  
+* что делает директива ignoreboth в bash?  
 Позволяет history не записывать дублиющиеся команды, т.е. в истории не будут отображаться строки которые начинаются с пробела и строки совпадающие с последней выполненной командой. 
 
 
