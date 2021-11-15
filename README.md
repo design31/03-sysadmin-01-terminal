@@ -207,17 +207,21 @@ vagrant@vagrant:~/TEST$ touch file{200001..300000}
 
 ---
 
-12. Основываясь на знаниях о просмотре текущих (например, PATH) и установке новых переменных; командах, которые мы рассматривали, добейтесь в выводе type -a bash в виртуальной машине наличия первым пунктом в списке: 
-vagrant@vagrant:\~$ type -a bash
-bash is /usr/bin/bash
-bash is /bin/bash
-vagrant@vagrant:\~$ mkdir newbash
-vagrant@vagrant:\~$ cp /bin/bash /home/vagrant/newbash/
-vagrant@vagrant:\~$ PATH=/home/vagrant/newbash/:$PATH
-vagrant@vagrant:~$ type -a bash
-bash is /home/vagrant/newbash/bash
-bash is /usr/bin/bash
-bash is /bin/bash
+12. Основываясь на знаниях о просмотре текущих (например, PATH) и установке новых переменных; командах, которые мы рассматривали, добейтесь в выводе type -a bash в виртуальной машине наличия первым пунктом в списке:  
+vagrant@vagrant:\~$ type -a bash  
+bash is /usr/bin/bash  
+bash is /bin/bash  
+vagrant@vagrant:\~$ mkdir newbash  
+vagrant@vagrant:\~$ cp /bin/bash /home/vagrant/newbash/  
+vagrant@vagrant:\~$ PATH=/home/vagrant/newbash/:$PATH  
+vagrant@vagrant:~$ type -a bash  
+bash is /home/vagrant/newbash/bash  
+bash is /usr/bin/bash  
+bash is /bin/bash  
+
+--
+
+13. 
 	      
 
 
