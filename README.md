@@ -193,7 +193,7 @@ vagrant@vagrant:~$
 vagrant@vagrant:\~/TEST$ touch file{1..300000}  
 -bash: /usr/bin/touch: Argument list too long  
 Ошибка говорит о том, что в команде превышен лимит длины аргументов. Данный лимит можно посмотреть командой:  
-vagrant@vagrant:~/TEST$ getconf ARG_MAX  
+vagrant@vagrant:\~/TEST$ getconf ARG_MAX  
 2097152  
 Как вариант можно разбить диапазон файлов на несколько поменьше:  
 vagrant@vagrant:\~/TEST$ touch file{1..100000}  
