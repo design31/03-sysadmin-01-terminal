@@ -196,8 +196,8 @@ vagrant@vagrant:~/TEST$ touch file{1..300000}
 vagrant@vagrant:~/TEST$ getconf ARG_MAX  
 2097152  
 Как вариант можно разбить диапазон файлов на несколько поменьше:  
-vagrant@vagrant:~/TEST$ touch file{1..100000}  
-vagrant@vagrant:~/TEST$ touch file{100001..200000}  
+vagrant@vagrant:\~/TEST$ touch file{1..100000}  
+vagrant@vagrant:\~/TEST$ touch file{100001..200000}  
 vagrant@vagrant:~/TEST$ touch file{200001..300000}  
 Таким образом файлы создались без ошибок.  
 
