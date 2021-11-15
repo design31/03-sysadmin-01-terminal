@@ -219,7 +219,7 @@ bash is /home/vagrant/newbash/bash
 bash is /usr/bin/bash  
 bash is /bin/bash  
 
---
+---
 
 13. 
 	      
